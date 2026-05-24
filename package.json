@@ -1,0 +1,21 @@
+{
+  "name": "tg-location-bot",
+  "version": "1.0.0",
+  "description": "Telegram live-location bot – Phase 1",
+  "main": "bot.js",
+  "scripts": {
+    "start":   "node bot.js",
+    "dev":     "nodemon bot.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js":    "^2.45.0",
+    "dotenv":                   "^16.4.5",
+    "node-telegram-bot-api":    "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
